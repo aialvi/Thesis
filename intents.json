@@ -1,0 +1,35 @@
+{
+    "intents": 
+    [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "ki khobor", "bhai acho", "kemon achen", "bhalo naki"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, kivabe help korte pari?", "bhalo achi", "onek bhalo."],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "chole jai", "pore kotha hobe"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old are you", "apnar boyos koto", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 'something' minutes old...", "I am just a bot"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me GOOD BOI.", "I'm GOOD BOI!", "I'm GOOD BOI aka GB."],
+         "context_set": ""
+        },
+        {"tag": "shop",
+         "patterns": ["Id like to buy something", "whats on the menu", "what do you reccommend?", "ki ache apnar shop e", "ki kinbo"],
+         "responses": ["Lal shirt ache :) Niben?", "Apatoto Lal shirt... :)"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation", "kokhon dokan khulben"],
+         "responses": ["We are open 7am-4pm Monday-Friday!"],
+         "context_set": ""
+        }
+   ]
+}
