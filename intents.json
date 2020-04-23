@@ -3,7 +3,7 @@
     [
         {"tag": "greeting",
          "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "ki khobor", "bhai acho", "kemon achen", "bhalo naki"],
-         "responses": ["Hello!", "Good to see you again!", "Hi there, kivabe help korte pari?", "bhalo achi", "onek bhalo."],
+         "responses": ["Hello!", "Hello sir, welcome to our store.", "Good to see you again!", "Hi there, kivabe help korte pari?", "bhalo achi", "onek bhalo."],
          "context_set": ""
         },
         {"tag": "goodbye",
@@ -22,13 +22,18 @@
          "context_set": ""
         },
         {"tag": "shop",
-         "patterns": ["Id like to buy something", "whats on the menu", "what do you reccommend?", "ki ache apnar shop e", "ki kinbo"],
-         "responses": ["Lal shirt ache :) Niben?", "Apatoto Lal shirt... :)"],
+         "patterns": ["Actually, I am planning to buy an air conditioner, so could you please help me with that","Id like to buy something", "whats on the menu", "what do you reccommend?", "ki ache apnar shop e", "ki kinbo"],
+         "responses": ["Sure, sir. Could you please specify me the brand so that I can be more transparent with the details?","Lal shirt ache :) Niben?", "Apatoto Lal shirt... :)"],
          "context_set": ""
         },
         {"tag": "hours",
          "patterns": ["when are you guys open", "what are your hours", "hours of operation", "kokhon dokan khulben"],
          "responses": ["We are open 7am-4pm Monday-Friday!"],
+         "context_set": ""
+        },
+        {"tag": "complaints",
+         "patterns": ["The order didn’t arrive on time", "I received the wrong item", "i had a bad experience in your store", "i am getting conflicting answers", "there was no response to my email and call"],
+         "responses": ["Thank you so much for letting us know about this, Sir.", "I’m so sorry to hear about this, sir.","I completely understand how you feel, Sir.","Thank you so much for your patience/understanding,sir.","I will take action about this right away. Sorry for the inconvenience."],
          "context_set": ""
         }
    ]
