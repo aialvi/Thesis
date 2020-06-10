@@ -18,7 +18,7 @@
         },
         {"tag": "shop",
          "patterns": ["Id like to buy something", "whats on the menu", "what do you recommend?"],
-         "responses": ["Lal shirt ache :) Niben?", "Apatoto Lal shirt... :)"],
+         "responses": ["A classy red shirt is available for you.", "You can have a look at our elegant shirts."],
          "context_set": ""
         },
         {"tag": "hours",
